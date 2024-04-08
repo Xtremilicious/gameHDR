@@ -1,0 +1,5 @@
+pillow==10.3.0
+darkdetect==0.8.0        # For detecting system theme (dark or light)
+sv-ttk==2.6.0            # Required for custom themed ttk widgets (sv_ttk package)
+pywin32==306             # Provides the win32com.client module (for Windows-specific operations)
+ntkutils==2.2.4
