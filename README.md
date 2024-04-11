@@ -29,3 +29,36 @@ HDR (High Dynamic Range) technology in gaming enhances the overall visual qualit
 ---
 
 *For developers:* GameHDR uses Python scripts to automate tasks and provide a seamless experience for gamers interested in enhancing their gaming visuals with HDR technology.
+
+## How It Works (Technical Details)
+
+GameHDR leverages a combination of Python and PowerShell scripts to automate the process of creating custom game shortcuts with HDR (High Dynamic Range) enabled. Here's a breakdown of the technical workflow:
+
+### Python Script (GUI and Shortcut Creation)
+
+The graphical user interface (GUI) for GameHDR is built using the `tkinter` library in Python. This GUI allows users to interactively select a game executable and create a custom shortcut with HDR activation.
+
+- **Game Selection**: Users can browse and select the game executable using the GUI.
+- **Shortcut Creation**: Upon selecting the game executable, GameHDR creates a desktop shortcut that automatically enables HDR when launching the game.
+
+### PowerShell Script (HDR Management)
+
+The core functionality of enabling and disabling HDR is handled by a PowerShell script (`hdr.ps1`), which is invoked by the shortcut created using GameHDR.
+
+- **Game Launch with HDR**: When the game shortcut is executed, the PowerShell script checks for the provided game executable and then uses the `WindowsDisplayManager` PowerShell module to enable HDR on the primary display.
+  
+  ```powershell
+  EnableHDROnPrimaryDisplay
+  StartGame -GameExecutable <path_to_game_executable>
+  DisableHDROnPrimaryDisplay
+
+### WindowsDisplayManager Module
+
+The **WindowsDisplayManager** module is responsible for interacting with the Windows display settings to enable and disable HDR.
+
+## Requirements
+
+- **Python**: GameHDR requires Python to be installed on the system.
+- **Windows**: GameHDR is designed specifically for Windows operating systems due to its reliance on PowerShell and WindowsDisplayManager.
+
+
