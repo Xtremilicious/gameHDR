@@ -6,6 +6,7 @@ GameHDR is a user-friendly tool that allows you to create custom shortcuts for y
 
 This enables HDR on your monitor only while playing specific games.
 
+**Note:** GameHDR is designed for Windows operating systems only. Tested for Windows 11 version 23H2.
 
 ## Features
 
