@@ -65,7 +65,7 @@ The **WindowsDisplayManager** module is responsible for interacting with the Win
 
 ## Requirements
 
-- **Python**: GameHDR requires Python to be installed on the system.
+- **Python**: GameHDR requires Python to be installed on the system. (If using CLI)
 - **Windows**: GameHDR is designed specifically for Windows operating systems due to its reliance on PowerShell and WindowsDisplayManager.
 
 
