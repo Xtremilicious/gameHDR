@@ -4,7 +4,7 @@
 
 GameHDR is a user-friendly tool that allows you to create custom shortcuts for your favorite games with HDR (High Dynamic Range) enabled. 
 
-This enables HDR on your monitor only while playing specific games.
+This allows you to enable HDR on your monitor only while playing specific games.
 
 **Note:** GameHDR is designed for Windows operating systems only. Tested for Windows 11 version 23H2.
 
@@ -13,6 +13,15 @@ This enables HDR on your monitor only while playing specific games.
 - **Easy Shortcut Creation**: GameHDR simplifies the process of creating desktop shortcuts for games or any executables.
 - **HDR Autostart**: Automatically enables HDR on your monitor when launching the game. HDR is disabled on your monitor once the game process ends.
 - **Custom Icons**: Choose custom icons for your game shortcuts to personalize your desktop.
+
+## How To Use
+Use the GUI executable [here](https://github.com/Xtremilicious/GameHDR/releases/tag/release) to generate HDR shortcuts for any game or executable.
+
+**OR**
+
+Use CLI to use the `hdr.ps1` file directly.
+
+
 
 ## How It Works
 
