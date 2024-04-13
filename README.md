@@ -33,11 +33,9 @@ HDR (High Dynamic Range) technology in gaming enhances the overall visual qualit
 
 ## Technical Details
 
-**Note:** GameHDR is designed for Windows operating systems and requires Python to be installed on your computer.
+**Note:** GameHDR is designed for Windows operating systems and requires Python to be installed on your computer. (If you are using the CLI method)
 
 ---
-
-*For developers:* GameHDR uses Python scripts to automate tasks and provide a seamless experience for gamers interested in enhancing their gaming visuals with HDR technology.
 
 ## How It Works (Technical Details)
 
